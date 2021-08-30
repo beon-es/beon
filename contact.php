@@ -13,9 +13,6 @@ $dni = $_POST['dni'];
 $TallaNeopreno = $_POST['TallaNeopreno'];
 $dnifecha = $_POST['dnifecha'];
 
+echo $nombre;
 
-if(mail('powerbi.test01@gmail.com', $name, $apellido, $domicilio, $fechanacimiento, $codigopostal, $email, $preguntasurf, $telefono, $alergias, $dni, $TallaNeopreno, $dnifecha)){
-	echo "Formulario enviado!";
-}else{ echo "Ups...hubo algún problema";
-}
 ?>
