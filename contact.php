@@ -8,9 +8,9 @@ $codigopostal = $_POST['codigopostal'];
 $email = $_POST['email'];
 $preguntasurf = $_POST['preguntasurf'];
 $telefono = $_POST['telefono'];
-$alergias = $_POST['alergias']
+$alergias = $_POST['alergias'];
 $dni = $_POST['dni'];
-$TallaNeopreno = $_POST['TallaNeopreno']
+$TallaNeopreno = $_POST['TallaNeopreno'];
 $dnifecha = $_POST['dnifecha'];
 
 
