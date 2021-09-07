@@ -23,6 +23,10 @@
 
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -226,6 +230,9 @@
 										</datalist>								
 							</div>
 						</div>
+						
+						</br>
+						
 						<div class="row">
 							<!-- Clases extra -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
@@ -251,29 +258,71 @@
 						<div class="row">
 							<!-- Conformidad legal-->
 							<div class="col-md-12 form-group mt-3 mt-md-0">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:
-								<p>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</p>
-								<p>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</p>
-								<p>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</p>
-								<p>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.
-								<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero. Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</label>
+															
 								<div class="col-md-6 form-group">
 									<div class="form-check form-check-inline">
 										<input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required>
-										<label class="form-check-label" for="chargeStation">Acepto los términos arriba establecidos</label>
+										<label class="form-check-label" for="chargeStation" href="#" data-toggle="modal" data-target="#myModal">Acepto los <i><u><a style="color:#6c757d">términos establecidos</a></u></i></label>
 									</div>
 								</div>
 							</div>	
+						</div>	
+
 						<!-- Botón enviar -->
-						<div class="text-center" style="margin-top:5%"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div>
+						<div class="text-center"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div>
+						
 							
 					</form>
 				</div> <!-- Fin .content -->
-				
+				               
             </div>
 			</div>
 		</div>
       </div>
+	  
+	  <!-- ======= Modal Términos y condiciones ======= -->
+		<div class="container">
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog"  role="document">
+			
+			  <!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header" style="background-color: #F0AD4E !important;">
+						<h4 class="modal-title" id="exampleModalLabel" style="color: rgb(255, 255, 255); text">Términos y condiciones</h4>
+
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" style="color: rgb(255, 255, 255);">×</span>
+						</button>
+					</div>
+					
+					<div class="modal-body">
+						<p>De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:</p>
+						
+						<p><li>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</li></p>
+				
+						<p><li>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</li></p>
+		
+						<p><li>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</li></p>
+						
+						<p><li>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.</li></p>
+						</br>
+						<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero.</p>
+						<p>Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</p>
+					</div>
+					
+					<div class="modal-footer">
+						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			  
+			</div>
+		  </div>
+		  
+		</div>
+		
+		
     </section> <!-- Fin Seccion Formulario -->
 	
 	
@@ -492,16 +541,8 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script>
-  AOS.init({
-  disable: function() {
-    var maxWidth = 800;
-    return window.innerWidth < maxWidth;
-  }
-	});
-	</script>
-	
 
+	
 </body>
 
 </html>
