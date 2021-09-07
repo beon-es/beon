@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-	<title>BeOn</title>
+	<title>BeON</title>
 	<!-- Cohete-->
 	<link rel="icon" type="image/x-icon" href="assets/img/cohete.png" />
 	<meta content="" name="description">
@@ -37,9 +37,9 @@
 		<!-- Menú navegación -->
 		<nav id="navbar" class="navbar">
 			<ul>
-				<li><a class="nav-link scrollto active" href="#hero">BeOn</a></li>
-				<li><a class="nav-link scrollto" href="#about">Formulario</a></li>
-				<li><a class="nav-link scrollto" href="#testimonials">Viajes</a></li>
+				<li><a class="nav-link scrollto active" href="#hero">BeON</a></li>
+				<li><a class="nav-link scrollto" href="#about">Vívelo</a></li>
+				<li><a class="nav-link scrollto" href="#testimonials">Experiencias</a></li>
 				<li><a class="nav-link scrollto " href="#portfolio">Galería</a></li>
 				<li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
 			</ul>
@@ -55,7 +55,7 @@
 	
 	<section id="hero">
 		<div class="hero-container">
-			<h1>BeOn</h1>
+			<h1>BeON</h1>
 			<a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
 		</div>
 	</section> <!-- Fin Seccion Principal -->
@@ -70,7 +70,7 @@
         <div class="section-title">
           <span>Surf Camp</span>
           <h2>Surf Camp</h2>
-          <p>¡Ya está aquí nuestro tercer viaje! Tendrá lugar el fin de semana del 24 al 26 de Septiembre, pasaremos unos maravillosos días de surf.</p>
+          <p>¡Ya está aquí el viaje de cierre del verano! Tendrá lugar el fin de semana del 24 al 26 de Septiembre, pasaremos unos maravillosos días de surf.</p>
 		  <p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>
         </div>
 
@@ -98,7 +98,7 @@
 					<div class="col-lg-4">
 					  <ul>
 						<li><i class="bi bi-chevron-right"></i> <strong>Clases de surf</strong> </li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Actividad BeOn</strong> </li>
+						<li><i class="bi bi-chevron-right"></i> <strong>Actividad BeON</strong> </li>
 					  </ul>
 					</div>
 				</div>
@@ -114,10 +114,10 @@
 								<input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required>
 							</div>
 								
-							<!-- Apellido-->
+							<!-- Apellidos-->
 							<div class="col-md-3 form-group mt-3 mt-md-0">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellido:</label>
-								<input type="text" class="form-control" name="apellido" id="apellido" placeholder="Apellido" required>
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellidos:</label>
+								<input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Apellidos" required>
 							</div>
 								
 							<!-- Domicilio-->
@@ -179,7 +179,7 @@
 							<!-- ¿Tienes alguna alergia alimenticia? -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Tienes alguna alergia alimenticia?</label>
-								<input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?" required>
+								<input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?">
 							</div>
 						</div>
 							
@@ -191,6 +191,17 @@
 									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A):</label>
 									<input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required>
 							</div>
+							<!-- Fecha de expedición DNI-->
+							<div class="col-md-6 form-group">
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI (6 números pequeñitos que están a la derecha de la fecha de nacimiento en nuestro DNI):</label>								
+									<input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" required>
+							</div>
+							
+						</div>
+							
+						</br>
+							
+						<div class="row">
 							<!-- ¿Qué talla de neopreno usas? -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Qué talla de neopreno usas?</label>
@@ -200,20 +211,59 @@
 										<option value="M">
 										<option value="L">
 										<option value="XL">
+										<option value="Llevo mi propio neopreno">
 									</datalist>
 							</div>
+							<!-- Noches extra -->
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna noche extra?</label>
+									<input class="form-control" list="mySelectModelnoche" name="Nocheextra" placeholder="-- Seleccionar -- " required>
+										<datalist id="mySelectModelnoche"> 
+											<option value="No">
+											<option value="Sí, desde el jueves">
+											<option value="Sí, desde el miércoles">
+											<option value="Otro (déjanoslo en comentarios)">
+										</datalist>								
+							</div>
 						</div>
-							
+						<div class="row">
+							<!-- Clases extra -->
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna clase de surf extra?</label>
+								<input class="form-control" list="mySelectModelclase" name="Nocheextra" placeholder="-- Seleccionar -- " required>
+									<datalist id="mySelectModelclase"> 
+										<option value="No">
+										<option value="Sí, el jueves por la mañana">
+										<option value="Sí, el viernes por la mañana">
+										<option value="Sí, el jueves y el viernes por la mañana">
+										<option value="Otro (déjanoslo en comentarios)">
+									</datalist>
+							</div>
+							<!-- ¿Tienes algún comentario que hacernos? -->
+							<div class="col-md-12 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label>
+								<input type="text" class="form-control" name="comentarios" id="comentarios">
+							</div>
+						</div>
+						
 						</br>
 							
 						<div class="row">
-							<!-- Fecha de expedición DNI-->
-							<div class="col-md-6 form-group">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI:</label>								
-								<input type="date" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" >
-							</div>
-						</div>
-							
+							<!-- Conformidad legal-->
+							<div class="col-md-12 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:
+								<p>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</p>
+								<p>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</p>
+								<p>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</p>
+								<p>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.
+								<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero. Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</label>
+								<div class="col-md-6 form-group">
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required>
+										<label class="form-check-label" for="chargeStation">Acepto los términos arriba establecidos</label>
+									</div>
+								</div>
+							</div>	
 						<!-- Botón enviar -->
 						<div class="text-center" style="margin-top:5%"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div>
 							
@@ -269,8 +319,8 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Surf Feel It</span>
-          <h2>Surf Feel It</h2>
+          <span>SurFeel IT</span>
+          <h2>SurFeel IT</h2>
         </div>
 
         <div class="row portfolio-container">
@@ -387,7 +437,8 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Me</h3>
-                  <p>+34 683 66 21 84</p>
+                  <p>+34 695 60 33 22</p>
+				  <p>+34 626 47 29 14</p>		 
                 </div>
               </div>
             </div>
@@ -408,13 +459,13 @@
   <footer id="footer">
   
     <div class="container">
-      <h3>BeOn</h3>
-      <p>Surf Feel It</p>
+      <h3>BeON</h3>
+      <p>SurFeel It</p>
       <div class="social-links">
         <a href="https://www.instagram.com/beon_es/" class="instagram"><i class="bx bxl-instagram"></i></a>
       </div>
       <div class="copyright">
-        &copy; Copyright <strong><span>BeOn</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>BeON</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
