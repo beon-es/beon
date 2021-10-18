@@ -1,0 +1,8 @@
+- Hacer apartado de FAQ (igual lo metería como una cosa a parte, no en el propio feed de la pagina, algo así como lo que has hecho con los apartaditos del surf, pues meter en la parte de contacto, una viñeta igual en la que pinchar y que te salgan las FAQ) [Blanca crear y Maikel redactar]
+- Hacer división entre SURF y SNOW (la idea es crear algo completamente similar a lo que tenemos actualmente para el surf, pero para el snow) [Blanca]
+- Cambiar foto del cartel de Surf por una foto de surf en general que ocupe como una cabecera y luego meterle debajo un texto diciendo que actualmente no tenemos viajes en activo pero que nos contactes si quieres organizar uno. [Blanca]
+-Dejar en backup el formulario con la foto de cartel, para ir cambiando esa foto de cartel y manteniendo el formulario entre un viaje y otro de surf. Ocultando y mostrando en función de si tenemos viajes activos y pensar en cómo actualizar el númeor de plazas disponibles. [Blanca]
+-Preparar una cabecera para el snow igual que la del surf, indicando que en breve publicaremos el siguiente viaje. [Maikel]
+-Preparar un formulario similar al del surf pero con las cosas que hagan falta para el snow [Maikel]
+-Preparar el contenido de cada uno de los apartaditos del snow [Maikel]
+ 
