@@ -1,8 +1,30 @@
 - Hacer apartado de FAQ (igual lo metería como una cosa a parte, no en el propio feed de la pagina, algo así como lo que has hecho con los apartaditos del surf, pues meter en la parte de contacto, una viñeta igual en la que pinchar y que te salgan las FAQ) [Blanca crear y Maikel redactar]
-- Hacer división entre SURF y SNOW (la idea es crear algo completamente similar a lo que tenemos actualmente para el surf, pero para el snow) [Blanca]
+
+FAQ:
+¿Cúando organizáis los viajes?
+Cada vez que organizamos un viaje publicamos en nuestras redes y en la web las fechas, el precio y cómo isncribirte.
+¿Cómo puedo enterarme de que habéis lanzado un viaje? ¿Dónde me apunto?
+La forma más fácil de enterarte es siguiéndonos en instagram @beon_es Y para apuntarte, habilitaremos un formulario de inscripción en nuestra web.
+¿Qué incluye el viaje?
+En BeON pensamos que para vivir la experiencia completa el viaje debe incluir todas las actividades, por eso siempre ofrecemos un paquete con con alojamiento, manutención y clases (ya sean de surf o de snowboard). Pero si necesitas algo más a medida, no dudes en contactarnos.
+¿Podéis organizarme un viaje en otras fechas?
+Por supuesto, además de los viajes organizados de BeON, también organizamos viajes que llamamos "satélite", en ellos tú nos cuentas qué plan te apetece y nosotros lo gestionamos.
+¿Qué pasa si al final no puedo ir?
+Al inscribirte a nuestros viajes debes pagar una reserva de plaza del 20%, que será reembolsable hasta 2 semanas antes del viaje, momento en el cual debes abonar el 80% restante.
+¿Cómo puedo contactar con vosotros?
+Puedes mandarnos un e-mail a info@beon-es.es o mandarnos un whatsapp al 695603322 o al 626472914 y te responderemos lo antes posible.
+¿Cómo realizo mi pago? ¿Cómo sé que el pago se ha realizado correctamente?
+En las horas siguientes al momento en el que realices tu inscripción te llegará un e-mail de confirmación donde se te indicará el método de pago. De igual manera, cuando recibamos tu pago, te enviaremos otro e-mail de confirmación. No te olvides de revisar el SPAM
+¿Quién puede viajar?
+BeON está preparado para acoger a todo el mundo, desde amigos de toda la vida, universitarios, compañeros de trabajo, hasta familias. No hay edad para ser BeONer.
+
+-Cambiar la foto de la portada por otra foto donde se mezclen el surf y el snow [Maikel]
 - Cambiar foto del cartel de Surf por una foto de surf en general que ocupe como una cabecera y luego meterle debajo un texto diciendo que actualmente no tenemos viajes en activo pero que nos contactes si quieres organizar uno. [Blanca]
 -Dejar en backup el formulario con la foto de cartel, para ir cambiando esa foto de cartel y manteniendo el formulario entre un viaje y otro de surf. Ocultando y mostrando en función de si tenemos viajes activos y pensar en cómo actualizar el númeor de plazas disponibles. [Blanca]
--Preparar una cabecera para el snow igual que la del surf, indicando que en breve publicaremos el siguiente viaje. [Maikel]
--Preparar un formulario similar al del surf pero con las cosas que hagan falta para el snow [Maikel]
+-En el apartado de snow, tener una cabecera como la del surf, común y debajo poder tener varias posiciones correderas (estilo lo del vídeo, pero que quede más claro que hay varios viajes), para poder poner en uno de los lados el viaje de Formigal y en otro el de Grandvalira (Yo los he puesto los dos uno debajo del otro porque no sé hacer eso, pero me gustaría que estuvieran así.
+-Preparar un formulario similar al del surf pero con las cosas que hagan falta para el snow, ¿podemos tener varios formularios abiertos? [Maikel]
 -Preparar el contenido de cada uno de los apartaditos del snow [Maikel]
+-Hacer que la foto que ponemos del mapa de pistas se pueda ampliar.
+-Desplegable en la pestaña superior de VÍVELO que nos deje elegir entre SURF / FORMIGAL / GRANDVALIRA
+
  
