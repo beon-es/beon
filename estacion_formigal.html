@@ -156,6 +156,21 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+<!--JS code for zoom-->
+<script>
+$(document).ready(function() {
+
+$('.image-popup-vertical-fit').magnificPopup({
+type: 'image',
+closeOnContentClick: true,
+mainClass: 'mfp-img-mobile',
+image: {
+verticalFit: true
+}
+});
+
+});
+</script>
 
 </body>
 
