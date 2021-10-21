@@ -24,7 +24,7 @@ BeON está preparado para acoger a todo el mundo, desde amigos de toda la vida, 
 -En el apartado de snow, tener una cabecera como la del surf, común y debajo poder tener varias posiciones correderas (estilo lo del vídeo, pero que quede más claro que hay varios viajes), para poder poner en uno de los lados el viaje de Formigal y en otro el de Grandvalira (Yo los he puesto los dos uno debajo del otro porque no sé hacer eso, pero me gustaría que estuvieran así.
 -Preparar un formulario similar al del surf pero con las cosas que hagan falta para el snow, ¿podemos tener varios formularios abiertos? [Maikel]
 -Preparar el contenido de cada uno de los apartaditos del snow [Maikel]
--Hacer que la foto que ponemos del mapa de pistas se pueda ampliar.
+-Hacer que la foto que ponemos del mapa de pistas se pueda ampliar, creo que esto lo he hecho, pero no se cierra al hacer el clik de nuevo. Si encuentras una solución mejor, bienvenida.
 -Desplegable en la pestaña superior de VÍVELO que nos deje elegir entre SURF / FORMIGAL / GRANDVALIRA
 
  
