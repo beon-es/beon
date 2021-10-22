@@ -24,11 +24,6 @@
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
 	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
-	
 </head>
 
 
@@ -43,9 +38,16 @@
 		<nav id="navbar" class="navbar">
 			<ul>
 				<li><a class="nav-link scrollto active" href="#hero">BeON</a></li>
-				<li><a class="nav-link scrollto" href="#about">Vívelo</a></li>
+				<li class="dropdown"><a href="#pricing"><span>Vívelo</span> <i class="bi bi-chevron-down"></i></a>
+				  <ul>
+					<li><a href="index_surf.html">Surf</a></li>
+					<li><a href="index_snow_formigal.html">Formigal</a></li>
+					<li><a href="index_snow_grandvalira.html">Grandvalira</a></li>
+				  </ul>
+				</li>
 				<li><a class="nav-link scrollto" href="#testimonials">Experiencias</a></li>
 				<li><a class="nav-link scrollto " href="#portfolio">Galería</a></li>
+				<li><a class="nav-link scrollto " href="#faqs">FAQs</a></li>
 				<li><a class="nav-link scrollto" href="#contact">Contacto</a></li>
 			</ul>
 			<i class="bi bi-list mobile-nav-toggle"></i>
@@ -58,954 +60,84 @@
 
 	<!-- ======= Seccion Principal ======= -->
 	
-	<section id="hero">
+	<section id="hero" style="background-image: url('assets/img/hero-bg.jpg'); height: 100vh; width: 100%;  background-size: cover; position: relative;">
 		<div class="hero-container">
 			<h1>BeON</h1>
-			<a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+			<a href="#pricing" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
 		</div>
 	</section> <!-- Fin Seccion Principal -->
 
 
 	<main id="main">
-	
-	<!-- ======= Seccion SURF ======= -->
-	<!-- Parte formulario -->
-    <section id="about" class="about">
+		
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
       <div class="container">
 
         <div class="section-title">
-          <span>BeON SURF</span>
-          <h2>BeON SURF</h2>
-          <p>Aquí encontrarás el formulario de inscripción cuando tengamos activo un viaje de SURF, no dejes de visitar esta sección para no perderte nada..</p>
-		  <!--<p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>-->
+          <span>Nuestros viajes</span>
+          <h2>Nuestros viajes</h2>
+          <p>Todo lo que debes saber sobre nuestros viajes. ¡Ya está aquí el lanzamiento de nuestra sección de ESQUÍ y SNOW!</p>
         </div>
 
         <div class="row">
-		
-			<!-- Imagen cartel-->
-			<div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-			<div class="col-lg-8 d-flex flex-column align-items-stretch">
-		  
-            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-				
-				</br>
-				<div class="row">
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Cuándo:</strong> <span>24-26 Septiembre</span></li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Dónde:</strong> <span>Loredo</span></li>
-					  </ul>
-					</div>
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Alojamiento</strong> </li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Pensión completa</strong> </li>
-					  </ul>
-					</div>
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Clases de surf</strong> </li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Actividad BeON</strong> </li>
-					  </ul>
-					</div>
-				</div>
-				
-				</br>
-				
-				
-				<div class="row mt-n4">
-					<div class="portfolio-img"><img src="assets/img/plazas_agotadas.png" class="img-fluid" style="margin-left: 30%; margin-top:10%"></div>
-				</div>
-					<!-- <form method="post" action="https://formspree.io/f/xyyllznr"> -->
-						<!-- <div class="row"> -->
-							<!-- <!-- Nombre-->
-							<!-- <div class="col-md-3 form-group"> -->
-								 <!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Nombre:</label> -->
-								<!-- <input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Apellidos--> 
-							<!-- <div class="col-md-3 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellidos:</label> -->
-								<!-- <input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Apellidos" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Domicilio--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Domicilio:</label> -->
-								<!-- <input type="text" class="form-control" name="domicilio" id="domicilio" placeholder="Domicilio" required> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Fecha de Nacimiento--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de Nacimiento:</label> -->
-								<!-- <input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Código Postal--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Código Postal:</label> -->
-								<!-- <input type="text" class="form-control" name="codigopostal" id="codigopostal" placeholder="Código Postal" required> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Correo electrónico--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Correo electrónico:</label> -->
-								<!-- <input type="email" class="form-control" name="email" id="email" placeholder="Email" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- ¿Has surfeado alguna vez?--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Has surfeado alguna vez?</label> -->
-								<!-- <div class="col-md-6 form-group"> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="Si"> -->
-										<!-- <label class="form-check-label" for="chargeStation">Sí</label> -->
-									<!-- </div> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="No"> -->
-										<!-- <label class="form-check-label" for="chageAll">No</label> -->
-									<!-- </div> -->
-								<!-- </div>  -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Número de teléfono--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono:</label> -->
-								<!-- <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required> -->
-							<!-- </div> -->
-							<!-- <!-- ¿Tienes alguna alergia alimenticia? --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Tienes alguna alergia alimenticia?</label> -->
-								<!-- <input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?"> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- DNI--> 
-							<!-- <div class="col-md-6 form-group"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A):</label> -->
-									<!-- <input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required> -->
-							<!-- </div> -->
-							<!-- <!-- Fecha de expedición DNI--> 
-							<!-- <div class="col-md-6 form-group"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI (6 números pequeñitos que están a la derecha de la fecha de nacimiento en nuestro DNI):</label>								 -->
-									<!-- <input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" required> -->
-							<!-- </div> -->
-							
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- ¿Qué talla de neopreno usas? --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Qué talla de neopreno usas?</label> -->
-								<!-- <input class="form-control" list="mySelectModel" name="TallaNeopreno" placeholder="-- Seleccionar -- " required> -->
-									<!-- <datalist id="mySelectModel">  -->
-										<!-- <option value="S"> -->
-										<!-- <option value="M"> -->
-										<!-- <option value="L"> -->
-										<!-- <option value="XL"> -->
-										<!-- <option value="Llevo mi propio neopreno"> -->
-									<!-- </datalist> -->
-							<!-- </div> -->
-							<!-- <!-- Noches extra --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna noche extra?</label> -->
-									<!-- <input class="form-control" list="mySelectModelnoche" name="Nocheextra" placeholder="-- Seleccionar -- " required> -->
-										<!-- <datalist id="mySelectModelnoche">  -->
-											<!-- <option value="No"> -->
-											<!-- <option value="Sí, desde el jueves"> -->
-											<!-- <option value="Sí, desde el miércoles"> -->
-											<!-- <option value="Otro (déjanoslo en comentarios)"> -->
-										<!-- </datalist>								 -->
-							<!-- </div> -->
-						<!-- </div> -->
-						
-						<!-- </br> -->
-						
-						<!-- <div class="row"> -->
-							<!-- <!-- Clases extra -->
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna clase de surf extra?</label> -->
-								<!-- <input class="form-control" list="mySelectModelclase" name="Nocheextra" placeholder="-- Seleccionar -- " required> -->
-									<!-- <datalist id="mySelectModelclase">  -->
-										<!-- <option value="No"> -->
-										<!-- <option value="Sí, el jueves por la mañana"> -->
-										<!-- <option value="Sí, el viernes por la mañana"> -->
-										<!-- <option value="Sí, el jueves y el viernes por la mañana"> -->
-										<!-- <option value="Otro (déjanoslo en comentarios)"> -->
-									<!-- </datalist> -->
-							<!-- </div> -->
-							<!-- <!-- ¿Tienes algún comentario que hacernos? --> 
-							<!-- <div class="col-md-12 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label> -->
-								<!-- <input type="text" class="form-control" name="comentarios" id="comentarios"> -->
-							<!-- </div> -->
-						<!-- </div> -->
-						
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Conformidad legal--> 
-							<!-- <div class="col-md-12 form-group mt-3 mt-md-0"> -->
-															
-								<!-- <div class="col-md-6 form-group"> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required> -->
-										<!-- <label class="form-check-label" for="chargeStation" href="#" data-toggle="modal" data-target="#myModal">Acepto los <i><u><a style="color:#6c757d">términos establecidos</a></u></i></label> -->
-									<!-- </div> -->
-								<!-- </div> -->
-							<!-- </div>	 -->
-						<!-- </div>	 -->
 
-						<!-- <!-- Botón enviar -->
-						<!-- <div class="text-center"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div> -->
-						
-					<!-- </form> -->
-				<!-- </div> <!-- Fin .content --> 
-				               
-            </div>
-			</div>
-		</div>
-      </div>
-	  
-	  <!-- ======= Modal Términos y condiciones ======= -->
-		<div class="container">
-
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog"  role="document">
-			
-			  <!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header" style="background-color: #F0AD4E !important;">
-						<h4 class="modal-title" id="exampleModalLabel" style="color: rgb(255, 255, 255); text">Términos y condiciones</h4>
-
-						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true" style="color: rgb(255, 255, 255);">×</span>
-						</button>
-					</div>
-					
-					<div class="modal-body">
-						<p>De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:</p>
-						
-						<p><li>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</li></p>
-				
-						<p><li>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</li></p>
-		
-						<p><li>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</li></p>
-						
-						<p><li>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.</li></p>
-						</br>
-						<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero.</p>
-						<p>Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</p>
-					</div>
-					
-					<div class="modal-footer">
-						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
-					</div>
-				</div>
-			  
-			</div>
-		  </div>
-		  
-		</div>
-		
-    </section> <!-- Fin parte Formulario -->
-	
-
-    <!-- ======= My Services SURF Section ======= -->
-    <section id="services_surf" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Información Surf</span>
-          <h2>Información Surf</h2>
-          <p>Todo lo que debes saber sobre nuestros viajes de SURF</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-home"></i></div>
-              <h4 class="title"><a href="alojamiento_surf.html">Alojamiento</a></h4>
-              <p class="description">Nuestro alojamiento colaborador es <strong>Plea Beach House</strong>. Te contamos dónde está, cómo hacer el check-in, servicios y mucho más!</p>
+          <div class="col-lg-4 col-md-6">
+            <div class="box">
+              <h3><i class="bx"><span class="iconify" data-icon="ic:baseline-surfing" data-width="35" data-height="35"></span></i>  BeON Surf</h3>
+              <h4><span> No programados actualmente</span></h4>
+			  <ul>
+                <li>Opening Surf Trip</li>
+                <li>Surf & Climbing</li>
+				<li>Surf Camp</li>
+              </ul>
+              <p class="description">Actualmente no tenemos viajes de surf en activo, pero si quieres organizar tu próximo viaje con nosotros, escríbenos y te ayudaremos!</p>
+              <div class="btn-wrap">
+                <a href="index_surf.html" class="btn-buy">Más información</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx"><span class="iconify" data-icon="ic:baseline-surfing" data-width="35" data-height="35"></span></i></div>
-			  
-              <h4 class="title"><a href="clases_surf.html">Clases de surf</a></h4>
-              <p class="description">Contamos con dos escuelas de surf que nos ayudarán a iniciarnos o continuar surfeando las olas, ¡conócelas!</p>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3><i class="bx"><span class="iconify" data-icon="ic:baseline-snowboarding" data-width="35" data-height="35"></span></i>  BeON Snow</h3>
+              <h4>21-23<span> / Enero '22</span></h4>
+              <ul>
+                <li>Formigal</li>
+                <li>Alojamiento con desayuno</li>
+                <li>Cena del sábado</li>
+                <li>Clases de esquí y snowboard</li>
+				<li>Todo el ambiente BeON</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="index_snow_formigal.html" class="btn-buy">Más información</a>
+              </div>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-calendar"></i></div>
-              <h4 class="title"><a href="planificacion_surf.html">Planificación diaria</a></h4>
-              <p class="description">¿Quieres conocer qué te espera en nuestros viajes? Te enseñamos el horario de nuestra última aventura para que veas todas nuestras actividades!</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="sitios_interes_surf.html">Sitios de interés</a></h4>
-              <p class="description">En Loredo hay mucho por conocer! Te contamos algunos lugares para visitar o sitios que te pueden interesar.</p>
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
+            <div class="box featured">
+              <h3><i class="bx"><span class="iconify" data-icon="ic:baseline-snowboarding" data-width="35" data-height="35"></span></i>  BeON Snow</h3>
+              <h4>11-15<span> / Marzo '22</span></h4>
+              <ul>
+                <li>Grandvalira</li>
+                <li>Alojamiento en apartamentos</li>
+                <li>Comida en pistas</li>
+                <li>Clases de esquí y snowboard</li>
+				<li>Todo el ambiente BeON</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Más información</a>
+              </div>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End My Services SURF Section -->
+    </section><!-- End Pricing Section -->
 	
-<!-- ======= Seccion Formulario SNOW ======= -->
-    <section id="about" class="about">
-      <div class="container">
-
-        <div class="section-title">
-          <span>BeON SNOW</span>
-          <h2>BeON SNOW</h2>
-          <p>¡Ya está aquí el lanzamiento de nuestra sección de ESQUÍ y SNOW! En esta sección te encontrarás todos los viajes a la nieve que vayamos publicando</p>
-		  <p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>
-        </div>
-	<!--
-        <div class="row">
-	-->
-			<!-- Imagen cartel-->
-	<!--
-			<div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-			<div class="col-lg-8 d-flex flex-column align-items-stretch">
-	-->	  
-            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-				
-				</br>
-				<div class="row">
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Cuándo:</strong> <span>21-23 Enero</span></li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Dónde:</strong> <span>Formigal</span></li>
-					  </ul>
-					</div>
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Alojamiento con desayuno</strong> </li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Cena del sábado</strong> </li>
-					  </ul>
-					</div>
-					<div class="col-lg-4">
-					  <ul>
-						<!--<li><i class="bi bi-chevron-right"></i> <strong>Clases de surf</strong> </li>-->
-						<li><i class="bi bi-chevron-right"></i> <strong>Todo el ambiente BeON</strong> </li>
-					  </ul>
-					</div>
-				</div>
-				
-				</br>
-				
-				<!--
-				<div class="row mt-n4">
-					<div class="portfolio-img"><img src="assets/img/plazas_agotadas.png" class="img-fluid" style="margin-left: 30%; margin-top:10%"></div>
-				</div>
-				-->
-					<!-- <form method="post" action="https://formspree.io/f/xyyllznr"> -->
-						<!-- <div class="row"> -->
-							<!-- <!-- Nombre-->
-							<!-- <div class="col-md-3 form-group"> -->
-								 <!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Nombre:</label> -->
-								<!-- <input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Apellidos--> 
-							<!-- <div class="col-md-3 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellidos:</label> -->
-								<!-- <input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Apellidos" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Domicilio--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Domicilio:</label> -->
-								<!-- <input type="text" class="form-control" name="domicilio" id="domicilio" placeholder="Domicilio" required> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Fecha de Nacimiento--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de Nacimiento:</label> -->
-								<!-- <input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Código Postal--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Código Postal:</label> -->
-								<!-- <input type="text" class="form-control" name="codigopostal" id="codigopostal" placeholder="Código Postal" required> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Correo electrónico--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Correo electrónico:</label> -->
-								<!-- <input type="email" class="form-control" name="email" id="email" placeholder="Email" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- ¿Has surfeado alguna vez?--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Has surfeado alguna vez?</label> -->
-								<!-- <div class="col-md-6 form-group"> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="Si"> -->
-										<!-- <label class="form-check-label" for="chargeStation">Sí</label> -->
-									<!-- </div> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="No"> -->
-										<!-- <label class="form-check-label" for="chageAll">No</label> -->
-									<!-- </div> -->
-								<!-- </div>  -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Número de teléfono--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono:</label> -->
-								<!-- <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required> -->
-							<!-- </div> -->
-							<!-- <!-- ¿Tienes alguna alergia alimenticia? --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Tienes alguna alergia alimenticia?</label> -->
-								<!-- <input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?"> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- DNI--> 
-							<!-- <div class="col-md-6 form-group"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A):</label> -->
-									<!-- <input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required> -->
-							<!-- </div> -->
-							<!-- <!-- Fecha de expedición DNI--> 
-							<!-- <div class="col-md-6 form-group"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI (6 números pequeñitos que están a la derecha de la fecha de nacimiento en nuestro DNI):</label>								 -->
-									<!-- <input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" required> -->
-							<!-- </div> -->
-							
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- ¿Qué talla de neopreno usas? --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Qué talla de neopreno usas?</label> -->
-								<!-- <input class="form-control" list="mySelectModel" name="TallaNeopreno" placeholder="-- Seleccionar -- " required> -->
-									<!-- <datalist id="mySelectModel">  -->
-										<!-- <option value="S"> -->
-										<!-- <option value="M"> -->
-										<!-- <option value="L"> -->
-										<!-- <option value="XL"> -->
-										<!-- <option value="Llevo mi propio neopreno"> -->
-									<!-- </datalist> -->
-							<!-- </div> -->
-							<!-- <!-- Noches extra --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna noche extra?</label> -->
-									<!-- <input class="form-control" list="mySelectModelnoche" name="Nocheextra" placeholder="-- Seleccionar -- " required> -->
-										<!-- <datalist id="mySelectModelnoche">  -->
-											<!-- <option value="No"> -->
-											<!-- <option value="Sí, desde el jueves"> -->
-											<!-- <option value="Sí, desde el miércoles"> -->
-											<!-- <option value="Otro (déjanoslo en comentarios)"> -->
-										<!-- </datalist>								 -->
-							<!-- </div> -->
-						<!-- </div> -->
-						
-						<!-- </br> -->
-						
-						<!-- <div class="row"> -->
-							<!-- <!-- Clases extra -->
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna clase de surf extra?</label> -->
-								<!-- <input class="form-control" list="mySelectModelclase" name="Nocheextra" placeholder="-- Seleccionar -- " required> -->
-									<!-- <datalist id="mySelectModelclase">  -->
-										<!-- <option value="No"> -->
-										<!-- <option value="Sí, el jueves por la mañana"> -->
-										<!-- <option value="Sí, el viernes por la mañana"> -->
-										<!-- <option value="Sí, el jueves y el viernes por la mañana"> -->
-										<!-- <option value="Otro (déjanoslo en comentarios)"> -->
-									<!-- </datalist> -->
-							<!-- </div> -->
-							<!-- <!-- ¿Tienes algún comentario que hacernos? --> 
-							<!-- <div class="col-md-12 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label> -->
-								<!-- <input type="text" class="form-control" name="comentarios" id="comentarios"> -->
-							<!-- </div> -->
-						<!-- </div> -->
-						
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Conformidad legal--> 
-							<!-- <div class="col-md-12 form-group mt-3 mt-md-0"> -->
-															
-								<!-- <div class="col-md-6 form-group"> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required> -->
-										<!-- <label class="form-check-label" for="chargeStation" href="#" data-toggle="modal" data-target="#myModal">Acepto los <i><u><a style="color:#6c757d">términos establecidos</a></u></i></label> -->
-									<!-- </div> -->
-								<!-- </div> -->
-							<!-- </div>	 -->
-						<!-- </div>	 -->
-
-						<!-- <!-- Botón enviar -->
-						<!-- <div class="text-center"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div> -->
-						
-					<!-- </form> -->
-				<!-- </div> <!-- Fin .content --> 
-				               
-            </div>
-			</div>
-		</div>
-      </div>
-	  
-	  <!-- ======= Modal Términos y condiciones ======= -->
-		<div class="container">
-
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog"  role="document">
-			
-			  <!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header" style="background-color: #F0AD4E !important;">
-						<h4 class="modal-title" id="exampleModalLabel" style="color: rgb(255, 255, 255); text">Términos y condiciones</h4>
-
-						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true" style="color: rgb(255, 255, 255);">×</span>
-						</button>
-					</div>
-					
-					<div class="modal-body">
-						<p>De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:</p>
-						
-						<p><li>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</li></p>
-				
-						<p><li>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</li></p>
-		
-						<p><li>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</li></p>
-						
-						<p><li>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.</li></p>
-						</br>
-						<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero.</p>
-						<p>Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</p>
-					</div>
-					
-					<div class="modal-footer">
-						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
-					</div>
-				</div>
-			  
-			</div>
-		  </div>
-		  
-		</div>
-		
-    </section> 
-	
-
-    <!-- ======= My Services SNOW Section I ======= -->
-    <section id="services_formigal" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Información Formigal 2022</span>
-          <h2>Información Formigal 2022</h2>
-          <p>Todo lo que debes saber para este viaje</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-home"></i></div>
-              <h4 class="title"><a href="alojamiento_formigal.html">Alojamiento</a></h4>
-              <p class="description">Esta vez nos alojaremos en el hotel <strong>SNÖ Formigal</strong>. Te contamos dónde está, cómo hacer el check-in, servicios y mucho más!</p>
-            </div>
-          </div>
-<!--
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx"><span class="iconify" data-icon="ic:baseline-snowboarding" data-width="35" data-height="35"></span></i></div>
-			  
-              <h4 class="title"><a href="clases_snow.html">Clases de esquí y snow</a></h4>
-              <p class="description">Contamos con las mejores escuelas de esquí y snow, y lo más importante ¡PARA TODOS LOS NIVELES!</p>
-            </div>
-          </div>
--->
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx"><span class="iconify" data-icon="map:chairlift" data-width="35" data-height="35"></span></i></div>
-			  
-              <h4 class="title"><a href="estacion_formigal.html">La estación</a></h4>
-              <p class="description">Esta vez viajaremos a Formigal, te contamos todo lo que debes saber de la estación.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="sitios_interes_formigal.html">Sitios de interés</a></h4>
-              <p class="description">En Formigal hay mucha vida! Aquí tienes algunos sitios que no te puedes perder.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-	<!-- End My Services SNOW Section I -->
-	
-    <section id="about" class="about">
-      <div class="container">
-<!--
-        <div class="section-title">
-          <span>BeON SNOW</span>
-          <h2>BeON SNOW</h2>
-          <p>¡Ya está aquí el lanzamiento de nuestra sección de ESQUÍ y SNOW! En esta sección te encontrarás todos los viajes a la nieve que vayamos publicando</p>
-		  <p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>
-        </div>
-
-        <div class="row">
--->		
-			<!-- Imagen cartel-->
-<!--
-			<div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-			<div class="col-lg-8 d-flex flex-column align-items-stretch">
--->		  
-            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
-				
-				</br>
-				<div class="row">
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Cuándo:</strong> <span>11-15 Marzo</span></li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Dónde:</strong> <span>Grandvalira</span></li>
-					  </ul>
-					</div>
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Alojamiento en apartamentos</strong> </li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Comida en pistas</strong> </li>
-					  </ul>
-					</div>
-					<div class="col-lg-4">
-					  <ul>
-						<li><i class="bi bi-chevron-right"></i> <strong>Clases de esquí y snowboard</strong> </li>
-						<li><i class="bi bi-chevron-right"></i> <strong>Todo el ambiente BeON</strong> </li>
-					  </ul>
-					</div>
-				</div>
-				
-				</br>
-				
-<!--				
-				<div class="row mt-n4">
-					<div class="portfolio-img"><img src="assets/img/plazas_agotadas.png" class="img-fluid" style="margin-left: 30%; margin-top:10%"></div>
-				</div>
--->
-					<!-- <form method="post" action="https://formspree.io/f/xyyllznr"> -->
-						<!-- <div class="row"> -->
-							<!-- <!-- Nombre-->
-							<!-- <div class="col-md-3 form-group"> -->
-								 <!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Nombre:</label> -->
-								<!-- <input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Apellidos--> 
-							<!-- <div class="col-md-3 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellidos:</label> -->
-								<!-- <input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Apellidos" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Domicilio--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Domicilio:</label> -->
-								<!-- <input type="text" class="form-control" name="domicilio" id="domicilio" placeholder="Domicilio" required> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Fecha de Nacimiento--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de Nacimiento:</label> -->
-								<!-- <input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- Código Postal--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Código Postal:</label> -->
-								<!-- <input type="text" class="form-control" name="codigopostal" id="codigopostal" placeholder="Código Postal" required> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Correo electrónico--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Correo electrónico:</label> -->
-								<!-- <input type="email" class="form-control" name="email" id="email" placeholder="Email" required> -->
-							<!-- </div> -->
-								
-							<!-- <!-- ¿Has surfeado alguna vez?--> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Has surfeado alguna vez?</label> -->
-								<!-- <div class="col-md-6 form-group"> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="Si"> -->
-										<!-- <label class="form-check-label" for="chargeStation">Sí</label> -->
-									<!-- </div> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="No"> -->
-										<!-- <label class="form-check-label" for="chageAll">No</label> -->
-									<!-- </div> -->
-								<!-- </div>  -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Número de teléfono--> 
-							<!-- <div class="col-md-6 form-group"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono:</label> -->
-								<!-- <input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required> -->
-							<!-- </div> -->
-							<!-- <!-- ¿Tienes alguna alergia alimenticia? --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Tienes alguna alergia alimenticia?</label> -->
-								<!-- <input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?"> -->
-							<!-- </div> -->
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- DNI--> 
-							<!-- <div class="col-md-6 form-group"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A):</label> -->
-									<!-- <input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required> -->
-							<!-- </div> -->
-							<!-- <!-- Fecha de expedición DNI--> 
-							<!-- <div class="col-md-6 form-group"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI (6 números pequeñitos que están a la derecha de la fecha de nacimiento en nuestro DNI):</label>								 -->
-									<!-- <input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" required> -->
-							<!-- </div> -->
-							
-						<!-- </div> -->
-							
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- ¿Qué talla de neopreno usas? --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Qué talla de neopreno usas?</label> -->
-								<!-- <input class="form-control" list="mySelectModel" name="TallaNeopreno" placeholder="-- Seleccionar -- " required> -->
-									<!-- <datalist id="mySelectModel">  -->
-										<!-- <option value="S"> -->
-										<!-- <option value="M"> -->
-										<!-- <option value="L"> -->
-										<!-- <option value="XL"> -->
-										<!-- <option value="Llevo mi propio neopreno"> -->
-									<!-- </datalist> -->
-							<!-- </div> -->
-							<!-- <!-- Noches extra --> 
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-									<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna noche extra?</label> -->
-									<!-- <input class="form-control" list="mySelectModelnoche" name="Nocheextra" placeholder="-- Seleccionar -- " required> -->
-										<!-- <datalist id="mySelectModelnoche">  -->
-											<!-- <option value="No"> -->
-											<!-- <option value="Sí, desde el jueves"> -->
-											<!-- <option value="Sí, desde el miércoles"> -->
-											<!-- <option value="Otro (déjanoslo en comentarios)"> -->
-										<!-- </datalist>								 -->
-							<!-- </div> -->
-						<!-- </div> -->
-						
-						<!-- </br> -->
-						
-						<!-- <div class="row"> -->
-							<!-- <!-- Clases extra -->
-							<!-- <div class="col-md-6 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna clase de surf extra?</label> -->
-								<!-- <input class="form-control" list="mySelectModelclase" name="Nocheextra" placeholder="-- Seleccionar -- " required> -->
-									<!-- <datalist id="mySelectModelclase">  -->
-										<!-- <option value="No"> -->
-										<!-- <option value="Sí, el jueves por la mañana"> -->
-										<!-- <option value="Sí, el viernes por la mañana"> -->
-										<!-- <option value="Sí, el jueves y el viernes por la mañana"> -->
-										<!-- <option value="Otro (déjanoslo en comentarios)"> -->
-									<!-- </datalist> -->
-							<!-- </div> -->
-							<!-- <!-- ¿Tienes algún comentario que hacernos? --> 
-							<!-- <div class="col-md-12 form-group mt-3 mt-md-0"> -->
-								<!-- <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label> -->
-								<!-- <input type="text" class="form-control" name="comentarios" id="comentarios"> -->
-							<!-- </div> -->
-						<!-- </div> -->
-						
-						<!-- </br> -->
-							
-						<!-- <div class="row"> -->
-							<!-- <!-- Conformidad legal--> 
-							<!-- <div class="col-md-12 form-group mt-3 mt-md-0"> -->
-															
-								<!-- <div class="col-md-6 form-group"> -->
-									<!-- <div class="form-check form-check-inline"> -->
-										<!-- <input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required> -->
-										<!-- <label class="form-check-label" for="chargeStation" href="#" data-toggle="modal" data-target="#myModal">Acepto los <i><u><a style="color:#6c757d">términos establecidos</a></u></i></label> -->
-									<!-- </div> -->
-								<!-- </div> -->
-							<!-- </div>	 -->
-						<!-- </div>	 -->
-
-						<!-- <!-- Botón enviar -->
-						<!-- <div class="text-center"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div> -->
-						
-					<!-- </form> -->
-				<!-- </div> <!-- Fin .content --> 
-				               
-            </div>
-			</div>
-		</div>
-      </div>
-	  
-	  <!-- ======= Modal Términos y condiciones ======= -->
-		<div class="container">
-
-		  <!-- Modal -->
-		  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			<div class="modal-dialog"  role="document">
-			
-			  <!-- Modal content-->
-				<div class="modal-content">
-					<div class="modal-header" style="background-color: #F0AD4E !important;">
-						<h4 class="modal-title" id="exampleModalLabel" style="color: rgb(255, 255, 255); text">Términos y condiciones</h4>
-
-						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-							<span aria-hidden="true" style="color: rgb(255, 255, 255);">×</span>
-						</button>
-					</div>
-					
-					<div class="modal-body">
-						<p>De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:</p>
-						
-						<p><li>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</li></p>
-				
-						<p><li>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</li></p>
-		
-						<p><li>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</li></p>
-						
-						<p><li>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.</li></p>
-						</br>
-						<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero.</p>
-						<p>Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</p>
-					</div>
-					
-					<div class="modal-footer">
-						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
-					</div>
-				</div>
-			  
-			</div>
-		  </div>
-		  
-		</div>
-		
-    </section>
-	
-
-    <!-- ======= My Services SNOW Section II ======= -->
-    <section id="services_grandvalira" class="services">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Información Grandvalira 2022</span>
-          <h2>Información Grandvalira 2022</h2>
-          <p>Todo lo que debes saber para este viaje</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-home"></i></div>
-              <h4 class="title"><a href="alojamiento_grandvalira.html">Alojamiento</a></h4>
-              <p class="description">Esta vez nos alojaremos en los apartamentos <strong>Superior El Tarter</strong>. Te contamos dónde está, cómo hacer el check-in, servicios y mucho más!</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx"><span class="iconify" data-icon="ic:baseline-snowboarding" data-width="35" data-height="35"></span></i></div>
-			  
-              <h4 class="title"><a href="clases_grandvalira.html">Clases de esquí y snow</a></h4>
-              <p class="description">Contamos con las mejores escuelas de esquí y snow, y lo más importante ¡PARA TODOS LOS NIVELES!</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx"><span class="iconify" data-icon="map:chairlift" data-width="35" data-height="35"></span></i></div>
-			  
-              <h4 class="title"><a href="estacion_grandvalira.html">La estación</a></h4>
-              <p class="description">Esta vez viajaremos a Grandvalira, te contamos todo lo que debes saber de la estación</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="sitios_interes_grandvalira.html">Sitios de interés</a></h4>
-              <p class="description">En El Tarter hay mucha vida! Aquí tienes algunos sitios que no te puedes perder.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-		<!-- End My Services SNOW Section II -->
-	<!-- Fin Seccion Formulario -->
 	
     <!-- ======= Seccion Videos ======= -->
     <section id="testimonials" class="testimonials">
@@ -1057,9 +189,9 @@
 		
 			<!-- Foto portfolio-1 -->
 			<div class="col-lg-4 col-md-6 portfolio-item">
-				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-15.jpg" class="img-fluid" alt=""></div>
 				<div class="portfolio-info">
-				  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+				  <a href="assets/img/portfolio/portfolio-15.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
 				</div>
 			</div>
 
@@ -1073,29 +205,21 @@
 
 			<!-- Foto portfolio-3 -->
 			<div class="col-lg-4 col-md-6 portfolio-item">
-				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
+				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid" alt=""></div>
 				<div class="portfolio-info">
-				  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+				  <a href="assets/img/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
 				</div>
 			</div>
 
 			<!-- Foto portfolio-4 -->
 			<div class="col-lg-4 col-md-6 portfolio-item">
-				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
+				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-17.jpg" class="img-fluid" alt=""></div>
 				<div class="portfolio-info">
-				  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+				  <a href="assets/img/portfolio/portfolio-17.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
 				</div>
 			</div>
 
 			<!-- Foto portfolio-5 -->
-			<div class="col-lg-4 col-md-6 portfolio-item">
-				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-				<div class="portfolio-info">
-				  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
-				</div>
-			</div>
-
-			<!-- Foto portfolio-6 -->
 			<div class="col-lg-4 col-md-6 portfolio-item">
 				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
 				<div class="portfolio-info">
@@ -1103,23 +227,23 @@
 				</div>
 			</div>
 
+			<!-- Foto portfolio-6 -->
+			<div class="col-lg-4 col-md-6 portfolio-item">
+				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
+				<div class="portfolio-info">
+				  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+				</div>
+			</div>
+
 			<!-- Foto portfolio-7-->
 			<div class="col-lg-4 col-md-6 portfolio-item">
-				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
+				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
 				<div class="portfolio-info">
-				  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+				  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
 				</div>
 			</div>
 
 			<!-- Foto portfolio-8 -->
-			<div class="col-lg-4 col-md-6 portfolio-item">
-				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-				<div class="portfolio-info">
-				  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
-				</div>
-			</div>
-
-			<!-- Foto portfolio-9 -->
 			<div class="col-lg-4 col-md-6 portfolio-item">
 				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
 				<div class="portfolio-info">
@@ -1127,10 +251,113 @@
 				</div>
 			</div>
 
+			<!-- Foto portfolio-9 -->
+			<div class="col-lg-4 col-md-6 portfolio-item">
+				<div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
+				<div class="portfolio-info">
+				  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bx bx-plus"></i></a>
+				</div>
+			</div>
+
         </div>
 
       </div>
     </section><!-- Fin Seccion Fotos -->
+
+
+
+	<!-- ======= FAQ Section ======= -->
+    <section id="faqs" class="faqs">
+	
+	    <div class="section-title" style= "margin-bottom:2%">
+			<span>FAQs</span>
+        </div>
+	
+		
+		<div class="container position-relative">
+
+         <div class="testimonials-slider swiper-container" data-aos="flip-down" data-aos-duration="1000" data-aos-easing="ease-in-sine">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="faqs-item">				
+                <h3>¿Cúando organizáis los viajes?</h3>
+                <p>
+                  Cada vez que organizamos un viaje publicamos en nuestras redes y en la web las fechas, el precio y cómo isncribirte.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Cómo puedo enterarme de que habéis lanzado un viaje? ¿Dónde me apunto?</h3>
+                <p>
+                  La forma más fácil de enterarte es siguiéndonos en instagram <a href="https://www.instagram.com/beon_es/" class="instagram">@beon_es</a> Y para apuntarte, habilitaremos un formulario de inscripción en nuestra web.
+                  </p>
+              </div>
+            </div><!-- End faqs item -->
+
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Qué incluye el viaje?</h3>
+                <p>
+                  En BeON pensamos que para vivir la experiencia completa el viaje debe incluir todas las actividades, por eso siempre ofrecemos un paquete con con alojamiento, manutención y clases (ya sean de surf o de snowboard). Pero si necesitas algo más a medida, no dudes en contactarnos.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Podéis organizarme un viaje en otras fechas?</h3>
+                <p>
+                  Por supuesto, además de los viajes organizados de BeON, también organizamos viajes que llamamos "satélite", en ellos tú nos cuentas qué plan te apetece y nosotros lo gestionamos.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Qué pasa si al final no puedo ir?</h3>
+                <p>
+                  Al inscribirte a nuestros viajes debes pagar una reserva de plaza del 20%, que será reembolsable hasta 2 semanas antes del viaje, momento en el cual debes abonar el 80% restante.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+			
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Cómo puedo contactar con vosotros?</h3>
+                <p>
+                  Puedes mandarnos un e-mail a info@beon-es.es o mandarnos un whatsapp al 695 60 33 22 o al 626 47 29 14 y te responderemos lo antes posible.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+			
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Cómo realizo mi pago? ¿Cómo sé que el pago se ha realizado correctamente?</h3>
+                <p>
+                  En las horas siguientes al momento en el que realices tu inscripción te llegará un e-mail de confirmación donde se te indicará el método de pago. De igual manera, cuando recibamos tu pago, te enviaremos otro e-mail de confirmación. No te olvides de revisar el SPAM.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+			
+            <div class="swiper-slide">
+              <div class="faqs-item">
+                <h3>¿Quién puede viajar?</h3>
+                <p>
+                  BeON está preparado para acoger a todo el mundo, desde amigos de toda la vida, universitarios, compañeros de trabajo, hasta familias. No hay edad para ser BeONer.
+                </p>
+              </div>
+            </div><!-- End faqs item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
 
 
     <!-- ======= Contact Me Seccion ======= -->
@@ -1184,9 +411,8 @@
   </main><!-- Fin #main -->
 
 
-
   <!-- ======= Pie de página ======= -->
-  <footer id="footer">
+  <footer id="footer" style="background-image: url('assets/img/footer-bg.jpg'); color: #fff; font-size: 14px; text-align: center; padding: 80px 0;  background-size: cover; position: relative;">
   
     <div class="container">
       <h3>BeON</h3>
