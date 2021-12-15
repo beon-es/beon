@@ -21,6 +21,13 @@
 	<link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
 	<link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+	
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css", rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js", rel="stylesheet"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js", rel="stylesheet"></script>
+	<script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+
+
 	<!-- Template Main CSS File -->
 	<link href="assets/css/style.css" rel="stylesheet">
 	
@@ -77,21 +84,21 @@
     <section id="about" class="about">
       <div class="container">
 
-        <div class="section-title">
-          <span>BeON Snow</span>
-          <h2>BeON Snow</h2>
-          <p>¡Ya está aquí el lanzamiento de nuestra sección de ESQUÍ y SNOW! En esta sección te encontrarás todos los viajes a la nieve que vayamos publicando</p>
-		  <p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>
-		  <!--<p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>-->
-        </div>
+			<div class="section-title">
+				<span>BeON Snow</span>
+				<h2>BeON Snow</h2>
+				<p>¡Ya está aquí el lanzamiento de nuestra sección de ESQUÍ y SNOW! En esta sección te encontrarás todos los viajes a la nieve que vayamos publicando</p>
+				<p>Para poder organizarlo mejor necesitamos que nos cumplimentes el siguiente formulario con tus datos personales.</p>
+			</div>
 				
 		<div class="row">
 		
 			<!-- Imagen cartel-->
-<!--
-			<div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+
+			<div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start">
+			</div>
 			<div class="col-lg-8 d-flex flex-column align-items-stretch">
--->		  
+		  
             <div class="content ps-lg-4 d-flex flex-column justify-content-center">
 				
 				</br>
@@ -117,6 +124,200 @@
 				</div>
 				
 				</br>
+
+					<form method="post" action="https://formspree.io/f/moqyokkp">
+						<div class="row">
+							<!-- Nombre-->
+							<div class="col-md-3 form-group">
+								 <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Nombre:</label>
+								<input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required>
+							</div>
+								
+							<!-- Apellidos--> 
+							<div class="col-md-3 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellidos:</label>
+								<input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Apellidos" required>
+							</div>
+								
+							<!-- Domicilio--> 
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Domicilio:</label>
+								<input type="text" class="form-control" name="domicilio" id="domicilio" placeholder="Calle, número, localidad,..." required>
+							</div>
+						</div>
+							
+						</br>
+							
+						<div class="row">
+							<!-- Fecha de Nacimiento-->
+							<div class="col-md-6 form-group">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de Nacimiento:</label>
+								<input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required>
+							</div>
+								
+							<!-- Código Postal--> 
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Código Postal:</label>
+								<input type="text" class="form-control" name="codigopostal" id="codigopostal" placeholder="Código Postal" required>
+							</div>
+						</div>
+							
+						</br>
+							
+						<div class="row">
+							<!-- Correo electrónico--> 
+							<div class="col-md-6 form-group">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Correo electrónico:</label>
+								<input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+							</div>
+							<!-- Número de teléfono--> 
+							<div class="col-md-6 form-group">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono:</label>
+								<input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required>
+							</div>								
+
+						</div>
+							
+						</br>
+							
+						<div class="row">
+							
+						<div class="row">
+							<!-- DNI--> 
+							<div class="col-md-6 form-group">
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A):</label>
+									<input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required>
+							</div>
+							<!-- Alquiler material -->
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Necesitas alquilar material?</label>
+								<input class="form-control" list="mySelectModelmaterial" name="Material" placeholder="-- Seleccionar -- " required>
+									<datalist id="mySelectModelmaterial">
+										<option value="No">
+										<option value="Sí, material de ESQUÍ std. (+49€)">
+										<option value="Sí, material de SNOWBOARD std. (+59€)">
+										<option value="Sí, material de ESQUÍ plata (+65€)">
+										<option value="Sí, material de SNOWBOARD plata (+78€)">
+									</datalist>
+							</div>
+						
+						</div>
+							
+						</br>
+							
+						<div class="row">
+
+							<!-- Clases -->
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Te gustaría dar clases? (INCLUÍDAS EN EL PRECIO)</label>
+								<input class="form-control" list="mySelectModelclases" name="Clases" placeholder="-- Seleccionar -- " required>
+									<datalist id="mySelectModelclases">
+										<option value="No">
+										<option value="Sí, clases de esquí">
+										<option value="Sí, clases de snowboard">
+									</datalist>
+							</div>
+							<!-- <!-- ¿Cuál es tu nivel? --> 
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Qué nivel tienes?</label>
+								<input class="form-control" list="mySelectModelNivel" name="Nivel" placeholder="-- Seleccionar -- " required>
+									<datalist id="mySelectModelNivel">
+										<option value="Es mi primera vez">
+										<option value="Estoy empezando">
+										<option value="Me tiro por cualquier lado">
+										<option value="Soy un experto">
+									</datalist>
+							</div>
+
+						</div>
+						
+						</br>
+						<div class="row">
+
+							<!-- Bus -->
+							<div class="col-md-12 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Estarías interesado en hacer el viaje en bus desde MADRID? (precio a parte, pendiente de concretar)</label>
+								<input class="form-control" list="mySelectModelbus" name="BUS" placeholder="-- Seleccionar -- " required>
+									<datalist id="mySelectModelbus">
+										<option value="No">
+										<option value="Sí">
+									</datalist>
+							</div>							
+							<!-- ¿Tienes algún comentario que hacernos?-->
+							<div class="col-md-12 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label>
+								<input type="text" class="form-control" name="comentarios" id="comentarios">
+							</div>
+						</div>
+						
+						</br>							
+						<div class="row">
+							<!-- Conformidad legal--> 
+							<div class="col-md-12 form-group mt-3 mt-md-0">							
+								<div class="col-md-6 form-group">
+									<div class="form-check form-check-inline">
+										<input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required>
+										<label class="form-check-label" for="chargeStation" href="#" data-toggle="modal" data-target="#myModal">Acepto los <i><u><a style="color:#6c757d" >términos establecidos</a></u></i></label>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Botón enviar -->
+						<div class="text-center"><button class = "btn btn-warning btn-user btn-block" type="submit">Enviar!</button></div>
+						
+					</form>
+				</div> <!-- Fin .content  -->
+				               
+			</div>
+		  </div>
+		</div>
+      </div>
+	  
+	  <!-- ======= Modal Términos y condiciones ======= -->
+		<div class="container">
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="myModal" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog"  role="document">
+			
+			  <!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header" style="background-color: #F0AD4E !important;">
+						<h4 class="modal-title" id="exampleModalLabel" style="color: rgb(255, 255, 255); tex; margin-left: 10%">Términos y condiciones</h4>
+
+						<button class="close" type="button" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true" style="color: rgb(255, 255, 255);">×</span>
+						</button>
+					</div>
+					
+					<div class="modal-body">
+						<p>De conformidad con lo establecido en el Art. 5 de la Ley Orgánica 15/1999 de diciembre de Protección de Datos de Carácter Personal, por el que se regula el derecho de información en la recogida de datos le informamos de los siguientes extremos:</p>
+						
+						<p><li>Los datos de carácter personal que nos ha suministrado en esta y otras comunicaciones mantenidas con usted serán objeto de tratamiento en los ficheros responsabilidad de BeON.</li></p>
+				
+						<p><li>La finalidad del tratamiento es la de gestionar de forma adecuada la prestación del servicio que nos ha requerido. Asimismo estos datos no serán cedidos a terceros, salvo las cesiones legalmente permitidas.</li></p>
+		
+						<p><li>Los datos solicitados a través de esta y otras comunicaciones son de suministro obligatorio para la prestación del servicio. Estos son adecuados, pertinentes y no excesivos.</li></p>
+						
+						<p><li>Su negativa a suministrar los datos solicitados implica la imposibilidad prestarle el servicio.</li></p>
+						</br>
+						<p>Asimismo, le informamos de la posibilidad de ejercitar los correspondiente derechos de acceso, rectificación, cancelación y oposición de conformidad con lo establecido en la Ley 15/1999 ante BeON como responsables del fichero.</p>
+						<p>Los derechos mencionados los puede ejercitar a través de un e-mail a la dirección: info.beon.es@gmail.com</p>
+					</div>
+					
+					<div class="modal-footer">
+						<button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
+					</div>
+				</div>
+			  
+			</div>
+		  </div>
+		  
+		</div>
+		
+    </section> <!-- Fin parte Formulario -->
+	
 				
 				
 
@@ -489,14 +690,10 @@
 			&copy; Copyright <strong><span>BeON</span></strong>. All Rights Reserved
 		  </div>
 		  <div class="credits">
-			<!-- All the links in the footer should remain intact. -->
-			<!-- You can delete the links only if you purchased the pro version. -->
-			<!-- Licensing information: https://bootstrapmade.com/license/ -->
-			<!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/ -->
 		   
 		  </div>
 		</div>
-		
+	
 	</footer><!-- Pie de página -->
 
 
