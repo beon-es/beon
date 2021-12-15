@@ -579,12 +579,12 @@ section {
 }
 
 .about .image {
-  background: url("../img/me.png") center center no-repeat;
+  background: url("../img/andorra.png") center center no-repeat;
   background-size: cover;
   margin: auto;
   display: block;
-  min-height: 500px;
-  Height: 100px;
+  min-height: 360px;
+  Height: 360px;
   Width: 360px;
 }
 
