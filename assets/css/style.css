@@ -588,6 +588,15 @@ section {
   Width: 360px;
 }
 
+.about .image2 {
+  background: url("../img/Precios.png") center center no-repeat;
+  background-size: cover;
+  margin: auto;
+  display: block;
+  min-height: 360px;
+  Height: 360px;
+  Width: 360px;
+}
 
 .about .skills-content {
   margin-top: 30px;
