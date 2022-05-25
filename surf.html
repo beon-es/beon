@@ -132,53 +132,84 @@
 				</div>-->
 					<form method="post" action="https://formspree.io/f/xeqnnqzz">
 						<div class="row">
+						<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DATOS PERSONALES</label>
+						</div>
+						<div class="row">
 							<!-- Nombre-->
 							<div class="col-md-3 form-group">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Nombre:</label>
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:3%">Nombre:</label>
 								<input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required>
 							</div>
 								
 							<!-- Apellidos--> 
 							<div class="col-md-3 form-group mt-3 mt-md-0">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Apellidos:</label>
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:3%">Apellidos:</label>
 								<input type="text" class="form-control" name="apellidos" id="apellidos" placeholder="Apellidos" required>
 							</div>
-								
+							
+							<!-- Fecha de Nacimiento--> 
+							<div class="col-md-6 form-group">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:3%">Fecha de Nacimiento:</label>
+								<input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required> 
+							</div>							
+						</div>
+							
+						</br>
+							
+						<div class="row">
+							<!-- DNI--> 
+							<div class="col-md-6 form-group">
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:4%">DNI (8 números más letra Ej.: 01234567A):</label>
+									<input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required>
+							</div>
+							<!-- Fecha de expedición DNI--> 
+							<div class="col-md-6 form-group">
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI (6 números pequeñitos que están a la derecha de la fecha de nacimiento en nuestro DNI):</label>
+									<input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" required>
+							</div>				
+						</div>
+							
+						</br>
+							
+						<div class="row">
 							<!-- Domicilio--> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Domicilio:</label>
 								<input type="text" class="form-control" name="domicilio" id="domicilio" placeholder="Domicilio" required>
 							</div>
-						</div>
-							
-						</br>
-							
-						<div class="row">
-							<!-- Fecha de Nacimiento--> 
-							<div class="col-md-6 form-group">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de Nacimiento:</label>
-								<input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required> 
-							</div>
-								
 							<!-- Código Postal--> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Código Postal:</label>
 								<input type="text" class="form-control" name="codigopostal" id="codigopostal" placeholder="Código Postal" required>
-							</div>
+							</div>						
 						</div>
 							
 						</br>
 							
 						<div class="row">
+							<!-- Número de teléfono--> 
+							<div class="col-md-6 form-group">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono:</label>
+								<input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required>
+							</div>
 							<!-- Correo electrónico--> 
 							<div class="col-md-6 form-group">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Correo electrónico:</label>
 								<input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
 							</div>
-								
+						</div>
+							
+						</br>
+							
+						<div class="row">
+							<!-- ¿Tienes alguna alergia alimenticia? --> 
+							<div class="col-md-6 form-group mt-3 mt-md-0">
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Tienes alguna alergia alimenticia?</label>
+								<input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?">
+							</div>
 							<!-- ¿Has surfeado alguna vez?--> 
 							<div class="col-md-6 form-group">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Has surfeado alguna vez?</label>
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%; margin-bottom:2%">¿Has surfeado alguna vez?</label>
 								<div class="row-md-6 form-group">
 									<div class="form-check form-check-inline">
 										<input class="form-check-input" type="radio" name="preguntasurf" id="preguntasurf" value="Si">
@@ -193,87 +224,72 @@
 						</div>
 							
 						</br>
-							
 						<div class="row">
-							<!-- Número de teléfono--> 
-							<div class="col-md-6 form-group">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono:</label>
-								<input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required>
-							</div>
-							<!-- ¿Tienes alguna alergia alimenticia? --> 
-							<div class="col-md-6 form-group mt-3 mt-md-0">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Tienes alguna alergia alimenticia?</label>
-								<input type="text" class="form-control" name="alergias" id="alergias" placeholder="¿Cuál?">
-							</div>
+						<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿AÑADIMOS ALGÚN EXTRA?</label>
 						</div>
-							
-						</br>
-							
-						<div class="row">
-							<!-- DNI--> 
-							<div class="col-md-6 form-group">
-									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A):</label>
-									<input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required>
-							</div>
-							<!-- Fecha de expedición DNI--> 
-							<div class="col-md-6 form-group">
-									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI (6 números pequeñitos que están a la derecha de la fecha de nacimiento en nuestro DNI):</label>
-									<input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI" required>
-							</div>
-							
-						</div>
-							
-						</br>
-							
 						<div class="row">
 							<!-- Clases extra -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna clase de surf extra?</label>
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:0%">Clases de surf extra</label>
 								<input class="form-control" list="mySelectModelclase" name="Claseextra" placeholder="-- Seleccionar -- " required>
 									<datalist id="mySelectModelclase"
 										<option value="No">
-										<option value="Sí, el jueves por la mañana (+25€)">
-										<option value="Sí, el viernes por la mañana (+25€)">
-										<option value="Sí, el jueves y el viernes por la mañana (+50€)">
+										<option value="El jueves por la mañana (+25€)">
+										<option value="El viernes por la mañana (+25€)">
+										<option value="El jueves y el viernes por la mañana (+50€)">
 										<option value="Otro (déjanoslo en comentarios)">
 									</datalist>
 							</div>
 							<!-- Noches extra --> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
-									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna noche extra?</label>
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:0%">Noches extra</label>
 									<input class="form-control" list="mySelectModelnoche" name="Nocheextra" placeholder="-- Seleccionar -- " required>
 										<datalist id="mySelectModelnoche">
 											<option value="No">
-											<option value="Sí, desde el jueves (+28€)">
-											<option value="Sí, desde el miércoles (+56€)">
+											<option value="Desde el jueves (+28€)">
+											<option value="Desde el miércoles. (+56€)">
 											<option value="Otro (déjanoslo en comentarios)">
 										</datalist>
 							</div>
 							<!-- PC extra --> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
-									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Quieres añadir alguna Pensión Completa extra?</label>
+									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Pensión Completa</label>
 									<input class="form-control" list="mySelectModelPC" name="PCextra" placeholder="-- Seleccionar -- " required>
 										<datalist id="mySelectModelPC">
 											<option value="No">
-											<option value="Sí, desde el jueves (+18€)">
-											<option value="Sí, desde el miércoles (+36€)">
+											<option value="Desde el jueves (+18€)">
+											<option value="Desde el miércoles (+36€)">
 											<option value="Otro (déjanoslo en comentarios)">
 										</datalist>
 							</div>
 						</div> 
 						
 						</br>
-						
+						<div class="row">
+						<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">COMENTARIOS</label>
+						</div>
 						<div class="row">
 							<!-- ¿Tienes algún comentario que hacernos? --> 
 							<div class="col-md-12 form-group mt-3 mt-md-0">
-								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label>
+								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:0%">¿Algo que tengamos que tener en cuenta?</label>
 								<input type="text" class="form-control" name="comentarios" id="comentarios">
 							</div>
 						</div>
 						
 						</br>
-							
+						
+						<div class="row">
+						<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">CÓDIGO AMIGO</label>
+						<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:0%">Si vienes recomendado por alguien, este es el sitio para introducir su código</label>
+						</div>
+						<div class="row">
+							<!--  --> 
+							<div class="col-md-3 form-group mt-3 mt-md-0">
+								<input type="text" class="form-control" name="código" id="código">
+							</div>
+						</div>
+						
+						</br>	
 						<div class="row">
 							<!-- Conformidad legal--> 
 							<div class="col-md-12 form-group mt-3 mt-md-0">							
