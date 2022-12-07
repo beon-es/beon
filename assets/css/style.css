@@ -85,6 +85,17 @@ h1, h2, h3, h4, h5, h6 {
   height: 60px;
   background: rgba(25, 28, 31, 0.8);
 }
+video.bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -304,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.65);
+/*  background: rgba(0, 0, 0, 0.65);*/
   position: absolute;
   bottom: 0;
   top: 0;
@@ -387,6 +398,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
+  z-index: 100;
 }
 
 .section-bg {
@@ -836,6 +848,14 @@ section {
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
+
+.portfolio {
+  padding: 80px 0;
+  background: url("../img/white.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
 .portfolio #portfolio-flters {
   list-style: none;
   margin-bottom: 20px;
@@ -993,6 +1013,13 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+.contact {
+  padding: 80px 0;
+  background: url("../img/white.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
 .contact .info-box {
   color: #444444;
   text-align: center;
@@ -1416,6 +1443,14 @@ input::-webkit-calendar-picker-indicator {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+.pricing {
+  padding: 80px 0;
+  background: url("../img/BeONwhite.png") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
 .pricing .box {
   padding: 20px;
   background: #fff;
