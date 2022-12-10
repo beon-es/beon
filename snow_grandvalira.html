@@ -131,13 +131,13 @@
 							<!-- Nombre-->
 							<div class="col-md-6 form-group">
 								 <label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Nombre y apellidos: *</label>
-								<input type="text" name="nombre" class="form-control form-control-user" id="nombre" placeholder="Nombre" required>
+								<input type="text" name="01Nombre" class="form-control form-control-user" id="01Nombre" placeholder="Nombre" required>
 							</div>
 								
 							<!-- Fecha de Nacimiento-->
 							<div class="col-md-6 form-group">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de Nacimiento: *</label>
-								<input type="date" class="form-control" name="fechanacimiento" id="fechanacimiento" placeholder="Fecha de Nacimiento" required>
+								<input type="date" class="form-control" name="02Fechanacimiento" id="02Fechanacimiento" placeholder="Fecha de Nacimiento" required>
 							</div>								
 
 						</div>
@@ -148,12 +148,12 @@
 							<!-- DNI--> 
 							<div class="col-md-6 form-group">
 									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">DNI (8 números más letra Ej.: 01234567A): *</label>
-									<input type="text" class="form-control" name="dni" id="dni" placeholder="DNI" required>
+									<input type="text" class="form-control" name="03DNI" id="03DNI" placeholder="DNI" required>
 							</div>
 							<!-- Fecha de expedición DNI--> 
 							<div class="col-md-6 form-group">
 									<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Fecha de expedición DNI:</label>
-									<input type="text" class="form-control" name="dnifecha" id="dnifecha" placeholder="Fecha de expedición DNI">
+									<input type="text" class="form-control" name="04DNIfecha" id="04DNIfecha" placeholder="Fecha de expedición DNI">
 							</div>
 						</div>							
 						</br>
@@ -161,13 +161,13 @@
 							<!-- Domicilio--> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Domicilio: *</label>
-								<input type="text" class="form-control" name="domicilio" id="domicilio" placeholder="Calle, número, localidad,..." required>
+								<input type="text" class="form-control" name="05Domicilio" id="05Domicilio" placeholder="Calle, número, localidad,..." required>
 							</div>
 								
 							<!-- Código Postal--> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Código Postal: *</label>
-								<input type="text" class="form-control" name="codigopostal" id="codigopostal" placeholder="Código Postal" required>
+								<input type="text" class="form-control" name="06Codigopostal" id="06Codigopostal" placeholder="Código Postal" required>
 							</div>
 						</div>
 							
@@ -177,12 +177,12 @@
 							<!-- Número de teléfono--> 
 							<div class="col-md-6 form-group">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Número de teléfono: *</label>
-								<input type="text" class="form-control" name="telefono" id="telefono" placeholder="Número de teléfono" required>
+								<input type="text" class="form-control" name="07Telefono" id="07Telefono" placeholder="Número de teléfono" required>
 							</div>		
 							<!-- Correo electrónico--> 
 							<div class="col-md-6 form-group">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Correo electrónico: *</label>
-								<input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+								<input type="email" class="form-control" name="08email" id="08email" placeholder="Email" required>
 							</div>						
 
 						</div>
@@ -193,7 +193,7 @@
 							<!-- Clases -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Elige las clases (INCLUÍDAS EN EL PRECIO): *</label>
-								<input class="form-control" list="mySelectModelclasesA" name="Clases" placeholder="-- Seleccionar -- " required>
+								<input class="form-control" list="mySelectModelclasesA" name="09Clases" placeholder="-- Seleccionar -- " required>
 									<datalist id="mySelectModelclasesA">
 										<option value="Esquí"></option>
 										<option value="Snowboard"></option>
@@ -203,7 +203,7 @@
 							<!-- <!-- ¿Cuál es tu nivel? --> 
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">Selecciona tu nivel: *</label>
-								<input class="form-control" list="mySelectModelNivelA" name="Nivel" placeholder="-- Seleccionar -- " required>
+								<input class="form-control" list="mySelectModelNivelA" name="10Nivel" placeholder="-- Seleccionar -- " required>
 									<datalist id="mySelectModelNivelA">
 										<option value="Es mi primera vez"></option>
 										<option value="Estoy empezando"></option>
@@ -219,7 +219,7 @@
 							<!-- Alquiler material ESQUÍ -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Necesitas alquilar material de ESQUÍ? *</label>
-								<input class="form-control" list="mySelectModelAlquilerESQUI" name="AlquilerESQUI" placeholder="-- Seleccionar --" required>
+								<input class="form-control" list="mySelectModelAlquilerESQUI" name="11AlquilerESQUI" placeholder="-- Seleccionar --" required>
 									<datalist id="mySelectModelAlquilerESQUI">
 										<option value="Sí, material de ESQUÍ bronce (+51€)"></option>
 										<option value="Sí, material de ESQUÍ plata (+63€)"></option>
@@ -230,7 +230,7 @@
 							<!-- Alquiler material SNOW -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Necesitas alquilar material de SNOW? *</label>
-								<input class="form-control" list="mySelectModelAlquilerSNOW" name="AlquilerSNOW" placeholder="-- Seleccionar --" required>
+								<input class="form-control" list="mySelectModelAlquilerSNOW" name="12AlquilerSNOW" placeholder="-- Seleccionar --" required>
 									<datalist id="mySelectModelAlquilerSNOW">
 										<option value="Sí, material de SNOW bronce (+67€)"></option>
 										<option value="Sí, material de SNOW plata (+81€)"></option>
@@ -241,7 +241,7 @@
 							<!-- Alquiler material Casco -->
 							<div class="col-md-6 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Necesitas alquilar Casco? *</label>
-								<input class="form-control" list="mySelectModelAlquilerCASCO" name="AlquilerCASCO" placeholder="-- Seleccionar --" required>
+								<input class="form-control" list="mySelectModelAlquilerCASCO" name="13AlquilerCASCO" placeholder="-- Seleccionar --" required>
 									<datalist id="mySelectModelAlquilerCASCO">
 										<option value="Sí (+10€)"></option>
 										<option value="No"></option>
@@ -258,7 +258,7 @@
 							<!-- Bus -->
 							<div class="col-md-12 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold;">¿Selecciona si estarías interesado en hacer el viaje en bus desde MADRID? (precio a parte, pendiente de concretar)</label>
-								<input class="form-control" list="mySelectModelbusA" name="BUS" placeholder="-- Seleccionar -- " required>
+								<input class="form-control" list="mySelectModelbusA" name="14BUS" placeholder="-- Seleccionar -- " required>
 									<datalist id="mySelectModelbusA">
 										<option value="Sí"></option>
 										<option value="No"></option>
@@ -267,7 +267,7 @@
 							<!-- ¿Tienes algún comentario que hacernos?-->
 							<div class="col-md-12 form-group mt-3 mt-md-0">
 								<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:1%">¿Algo que tengamos que tener en cuenta?</label>
-								<input type="text" class="form-control" name="comentarios" id="comentarios">
+								<input type="text" class="form-control" name="15Comentarios" id="15Comentarios">
 							</div>
 						</div>
 						
@@ -280,7 +280,7 @@
 							<!--  -->
 							<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: bold; margin-top:0%">Si vienes recomendado por alguien, este es el sitio para introducir su código</label>
 							<div class="col-md-6 form-group mt-3 mt-md-0">
-								<input type="text" class="form-control" name="codigoamigo" id="codigoamigo">
+								<input type="text" class="form-control" name="16Codigoamigo" id="16Codigoamigo">
 							</div>
 							<label class="form-label text-warning" style="color:bg-gradient-warning !important; font-weight: normal; margin-top:1%">* Campos obligatorios</label>
 						</div>
@@ -291,7 +291,7 @@
 							<div class="col-md-12 form-group mt-3 mt-md-0">							
 								<div class="col-md-6 form-group">
 									<div class="form-check form-check-inline">
-										<input class="form-check-input" type="checkbox" name="preguntalegal" id="preguntalegal" value="Si" required>
+										<input class="form-check-input" type="checkbox" name="17Preguntalegal" id="17Preguntalegal" value="Si" required>
 										<label class="form-check-label" for="chargeStation" href="#" data-toggle="modal" data-target="#myModal">Acepto los <i><u><a style="color:#6c757d" >términos establecidos</a></u></i></label>
 									</div>
 								</div>
